@@ -1,6 +1,7 @@
+
 # Stranger Things - Landing Page "Mundo Invertido" 🔮
 
-![Banner do Projeto](assets/images/banner/logo.svg)
+<p align="center"><img width="300" src="https://annykaah.github.io/landing-page-mundo-invertido-challenge/assets/images/banner/logo.svg"></p>
 
 Projeto de uma landing page temática inspirada na série Stranger Things, desenvolvido como parte do bootcamp **"Ri Happy - Front-end do Zero #2"** da [Digital Innovation One (DIO)](https://dio.me/).
 
