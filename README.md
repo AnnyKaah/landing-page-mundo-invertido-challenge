@@ -1,107 +1,80 @@
-<p align="center">
-    <img width="300" src="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/assets/images/banner/logo.svg">
-</p>
+# Stranger Things - Landing Page "Mundo Invertido" 🔮
 
--------
-Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)? 
+![Banner do Projeto](assets/images/banner/logo.svg)
 
-## ▶️ Semana Front-end
-- [Live Dia 01](https://www.youtube.com/watch?v=FZgIQUDn8zo)
-- [Live Dia 02](https://www.youtube.com/watch?v=WHbhgxJLbN4)
-## 💻 Tecnologias
-- HTML
-- CSS
-- JavaScript
+Projeto de uma landing page temática inspirada na série Stranger Things, desenvolvido como parte do bootcamp **"Ri Happy - Front-end do Zero #2"** da [Digital Innovation One (DIO)](https://dio.me/).
 
-## 💬 Assuntos abordados
-- HTML
-    - Estruturação da página 
-    - Semântica
-    - Acessibilidade
-    - Web Scraping
-    - SEO
-- CSS
-    - Posicionamentos
-    - Pseudo-elementos
-    - Pseudo-classes
-    - Flexbox
-    - Animações 
-- JavaScript
-    - Introdução ao JavaScript
-    - Manipulação do DOM
-    - Introdução ao Firebase
-    - Integração com o Firebase
+### ✨ [Veja o projeto ao vivo aqui!](https://annykaah.github.io/landing-page-mundo-invertido-challenge)
 
-## 🎨 Variáveis do Tema CSS
-```css
-/*** VARIABLES & THEMES ***/
+---
 
-:root {
-  --primary-color: #cf0f0f;
-  --primary-color-contrast: #ffffff;
-  --field-background-color: #000;
-}
+## 🎬 Sobre o Projeto
 
-.light-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #ffffff 65%,
-    rgba(255, 255, 255, 0.75) 100%
-  );
-  --header-background-color: #e3e3e3;
-  --highlight-color: #000000;
-  --featured-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-top-image-color: #ffffff;
-  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-bottom-image-color: #e5e5e5;
-  --background-lamp-image: url("../images/backgrounds/lamps.png");
-  --footer-background-color: #b5bbbf;
-}
+Esta é uma landing page interativa que simula a transição entre o "Mundo Normal" e o "Mundo Invertido" da série. O objetivo foi aplicar de forma prática os conceitos de **HTML5**, **CSS3** e **JavaScript** em um projeto criativo e visualmente atraente, explorando animações, manipulação do DOM e integração com serviços externos como o Firebase.
 
-.dark-theme {
-  --page-background: linear-gradient(
-    180deg,
-    #050000 0%,
-    #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
-  --header-background-color: #220f0f;
-  --highlight-color: #ffffff;
-  --featured-font-family: "Rubik Glitch", sans-serif;
-  --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
-  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
-  --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
-  --character-top-image-color: #000;
-  --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
-  --footer-background-color: #000;
-}
-```
-## 🔗 Links auxiliares
+---
 
-- [W3C - World Wide Web Consortium](http://w3c.org)
-- [WAI - Web Acessibility Initiative](https://www.w3.org/WAI/)
-- [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
-- [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
-- [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
-## 🌎 Nossas redes sociais
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/16018277?v=4"/>
-    <p>&nbsp&nbsp&nbspDiogo Medeiros Mainardes<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/diogomainardes.dev">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/diogomainardes">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/diogomainardes/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/dimmbr">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/3266640?v=4"/>
-    <p>&nbsp&nbsp&nbspRenan Johannsen de Paula <br>
-    &nbsp&nbsp&nbsp<a href="https://github.com/RenanJPaula">GitHub</a>&nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/renanjpaula/">LinkedIn</a>
-    </p>
-</p>
+## 🚀 Funcionalidades
+
+- **Tema Interativo**: Alterne entre o "Mundo Normal" e o "Mundo Invertido" com um clique, alterando completamente o visual da página.
+- **Efeitos Visuais e Sonoros**:
+  - Música de fundo que se adapta ao tema selecionado.
+  - Efeito de "estática" na transição de temas.
+  - Animações de texto com efeito "glitch".
+- **Animações de Rolagem**: Elementos da página surgem com uma animação suave conforme o usuário rola a página.
+- **Formulário de Inscrição**: Um formulário para "entrar no clube de D&D", com os dados sendo salvos em tempo real no **Firebase Firestore**.
+- **Design Responsivo**: A página se adapta a diferentes tamanhos de tela, garantindo uma boa experiência em desktops e dispositivos móveis.
+- **Tela de Carregamento**: Uma animação de loading é exibida enquanto os recursos da página são carregados.
+
+---
+
+## ️ Tecnologias Utilizadas
+
+O projeto foi construído utilizando as seguintes tecnologias:
+
+- **HTML5**: Estrutura semântica do site.
+- **CSS3**: Estilização, temas, animações (`@keyframes`), efeitos visuais e responsividade (`@media`).
+- **JavaScript (ES6+)**: Manipulação do DOM, interatividade, controle de áudio e lógica de animações.
+- **Firebase**: Utilizado para armazenar as submissões do formulário no serviço **Firestore Database**.
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+Para rodar este projeto localmente, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/AnnyKaah/landing-page-mundo-invertido-challenge
+   ```
+
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd landing-page-mundo-invertido-challenge
+   ```
+
+3. **Configuração do Firebase:**
+   - Crie um projeto no Firebase.
+   - Na raiz do seu projeto Firebase, crie um aplicativo da Web e copie as credenciais de configuração.
+   - Crie o arquivo `assets/js/data/config.js` e cole suas credenciais, como no exemplo abaixo:
+     ```javascript
+     // assets/js/data/config.js
+     const firebaseConfig = {
+       apiKey: "SUA_API_KEY",
+       authDomain: "SEU_AUTH_DOMAIN",
+       projectId: "SEU_PROJECT_ID",
+       storageBucket: "SEU_STORAGE_BUCKET",
+       messagingSenderId: "SEU_MESSAGING_SENDER_ID",
+       appId: "SEU_APP_ID"
+     };
+
+     export default firebaseConfig;
+     ```
+
+4. **Abra o `index.html` no seu navegador** e explore a aplicação!
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
